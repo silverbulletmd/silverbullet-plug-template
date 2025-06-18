@@ -1,7 +1,6 @@
 {
   "tasks": {
-    "build": "silverbullet plug:compile -c deno.jsonc hello.plug.yaml",
-    "watch": "silverbullet plug:compile -c deno.jsonc hello.plug.yaml -w"
+    "build": "deno run -A https://github.com/silverbulletmd/silverbullet/releases/download/edge/plug-compile.js -c deno.jsonc hello.plug.yaml"
   },
   "lint": {
     "rules": {
@@ -16,6 +15,6 @@
     ]
   },
   "imports": {
-    "@silverbulletmd/silverbullet": "jsr:@silverbulletmd/silverbullet@^0.9.0"
+    "@silverbulletmd/silverbullet": "jsr:@silverbulletmd/silverbullet@^2.0.0-pre"
   }
 }
