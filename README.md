@@ -17,6 +17,7 @@ ln -s $PWD ~/myspace/Library/you/hello
 ```
 ---
 name: Library/you/hello/PLUG
+tags: meta/library
 files:
 - myplug.plug.js
 ---

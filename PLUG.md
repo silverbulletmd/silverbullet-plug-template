@@ -4,4 +4,4 @@ tags: meta/library
 files:
 - hello.plug.js
 ---
-Hello
+This library does A, B and C.
