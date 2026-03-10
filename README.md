@@ -24,10 +24,11 @@ files:
 ```
 
 ## Build
-To build this plug, make sure you have [Deno installed](https://docs.deno.com/runtime/). Then, build the plug with:
+To build this plug, make sure you have [Node.js installed](https://nodejs.org/). Then, install dependencies and build the plug with:
 
 ```shell
-deno task build
+npm install
+npm run build
 ```
 
 Within ~20s SilverBullet will automatically sync your plug code, just watch your browser's JavaScript console to see when this happens. Then run the `Plugs: Reload` command to reload and reactivate the plug (no reload required).
